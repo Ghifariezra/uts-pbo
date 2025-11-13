@@ -22,7 +22,7 @@ public class Manusia {
     }
 
     // Getter
-    protected String getName() {
+    public String getName() {
         return this.nama;
     }
 
