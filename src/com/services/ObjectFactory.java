@@ -3,8 +3,9 @@ package com.services;
 import java.util.ArrayList;
 import com.polymorphism.*;
 
-public class ObjectFactory {
-    public static ArrayList<Object> createObjects(String[] names) {
+public class ObjectFactory extends BaseService {
+    @Override
+    public ArrayList<Object> createObjects(String[] names) {
         ArrayList<Object> listItems = new ArrayList<>();
 
         for (String name : names) {
@@ -25,4 +26,7 @@ public class ObjectFactory {
 
         return listItems;
     }
+
+    @Override
+    public void printOut(String pilihan, ArrayList<Object> listItems) {}
 }

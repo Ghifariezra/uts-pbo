@@ -3,8 +3,14 @@ package com.services;
 import java.util.ArrayList;
 import com.polymorphism.*;
 
-public class PrinterService {
-    public static void printOut(String pilihan, ArrayList<Object> listItems) {
+public class PrinterService extends BaseService {
+    @Override
+    public ArrayList<Object> createObjects(String[] names) {
+        return null;
+    }
+
+    @Override
+    public void printOut(String pilihan, ArrayList<Object> listItems) {
         for (Object obj : listItems) {
             if (obj instanceof Manusia manusia && manusia.getName().equalsIgnoreCase(pilihan)) {
                 if (pilihan.equals("deki")) {
