@@ -10,16 +10,6 @@ Tugas UTS PBO ini merupakan implementasi konsep Pemrograman Berorientasi Objek (
 ```bash
 UTS
 |   README.md
-|   
-+---.github
-|   \---java-upgrade
-|       |   .gitignore
-|       |
-|       \---20251027022832
-|           |   progress.md
-|           |
-|           \---logs
-|                   0.log
 |
 +---.vscode
 |       settings.json
